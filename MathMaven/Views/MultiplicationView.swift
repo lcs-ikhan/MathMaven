@@ -11,7 +11,7 @@ struct MultiplicationView: View {
 
         // MARK: Stored properties
         
-        // The numbers to be subtracted
+        // The numbers to be multiplied
         @State var firstValue = Int.random(in: 1...20)
         @State var secondValue = Int.random(in: 1...20)  // Will be updated once view loads
         
